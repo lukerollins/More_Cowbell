@@ -1,0 +1,72 @@
+html {
+  font-size: 10px;
+  background-image: url(../imgs/walken_cowbell.jpg);
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#apostrophe {
+  font-weight: bolder;
+}
+
+
+
+.cowbell1 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: left;  
+}
+
+.cowbell2 { 
+  display: flex;
+  padding: 10px;
+  padding-left: 55px;
+  align-items: center;
+  justify-content: left; 
+}
+
+.cowbell3 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: left;  
+}
+
+
+.key {
+  border: .4rem solid rgba(42, 141, 158, 0.979);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(42, 82, 104);
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: rgba(118, 234, 255, 0.979);
+  box-shadow: 0 0 1rem rgba(118, 234, 255, 0.979);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: white;
+}
