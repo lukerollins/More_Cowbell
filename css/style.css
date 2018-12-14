@@ -67,9 +67,11 @@ body,html {
   box-shadow: 0 0 1rem rgba(118, 234, 255, 0.979);
 }
 
-kbd {
+.key p {
   display: block;
-  font-size: 4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .sound {
