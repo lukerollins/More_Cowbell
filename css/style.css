@@ -69,14 +69,13 @@ body,html {
 
 .key p {
   display: block;
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: uppercase;
-  text-decoration: underline;
+  
 }
 
 .sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
+  font-size: 1.75rem;
   letter-spacing: .1rem;
   color: white;
 }

@@ -19,7 +19,7 @@ function keyPress(e) {
 
   // If the user presses 'c', call playClap()
   if (e.key === 'a') {
-    playCowbellOne(console.log('ugh'));
+    playCowbellOne();
   } else if (e.key === 's') {
     playCowbellTwo();
   } else if (e.key === 'd') {
@@ -36,9 +36,9 @@ function keyPress(e) {
     playFourStrikes();
   } else if (e.key === 'l') {
     playBoogieCowbell();
-  } else if (e.key === 'o') {
+  } else if (e.key === 't') {
     playBoogie1Reverb();
-  } else if (e.key === 'p') {
+  } else if (e.key === 'y') {
     playCowbell808();
   }
 }
@@ -184,7 +184,7 @@ function playFourStrikes() {
   audio.play();
   
   // Find the #button-clap box
-  const button = document.querySelector('#latin_cowbell_four_strikes_1');
+  const button = document.querySelector('#button-latin_cowbell_four_strikes_1');
   
   // Add the playing class to it
   button.classList.add('playing');
