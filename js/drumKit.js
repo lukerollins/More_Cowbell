@@ -17,7 +17,7 @@ document.querySelector('body').onkeypress = keyPress;
 
 function keyPress(e) { 
 
-  // If the user presses 'c', call playClap()
+  // If the user presses 's', call playCowbellTwo()
   if (e.key === 'a') {
     playCowbellOne();
   } else if (e.key === 's') {
@@ -44,7 +44,7 @@ function keyPress(e) {
 }
  
 function playCowbellOne() {
-  // Find the clap audio file
+  // Find the rock_cowbell_1 audio file
   const audio = document.querySelector('#rock_cowbell_1');
   
   // Rewind to the beginning
@@ -54,7 +54,7 @@ function playCowbellOne() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-rock_cowbell_1
   const button = document.querySelector('#button-rock_cowbell_1');
   
   // Add the playing class to it
@@ -63,7 +63,7 @@ function playCowbellOne() {
 
 
 function playCowbellTwo() {
-  // Find the clap audio file
+  // Find the rock_cowbell_2 audio file
   const audio = document.querySelector('#rock_cowbell_2');
   
   // Rewind to the beginning
@@ -73,7 +73,7 @@ function playCowbellTwo() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-rock_cowbell_2 box
   const button = document.querySelector('#button-rock_cowbell_2');
   
   // Add the playing class to it
@@ -82,7 +82,7 @@ function playCowbellTwo() {
 
 
 function playCowbellOneReverb() {
-  // Find the clap audio file
+  // Find the rock_cowbell_1_reverb audio file
   const audio = document.querySelector('#rock_cowbell_1_reverb');
   
   // Rewind to the beginning
@@ -92,14 +92,14 @@ function playCowbellOneReverb() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the ##button-rock_cowbell_1_reverb box
   const button = document.querySelector('#button-rock_cowbell_1_reverb');
   
   // Add the playing class to it
   button.classList.add('playing');
 }
 function playCowbellTwoReverb() {
-  // Find the clap audio file
+  // Find the rock_cowbell_2_reverb audio file
   const audio = document.querySelector('#rock_cowbell_2_reverb');
   
   // Rewind to the beginning
@@ -109,14 +109,14 @@ function playCowbellTwoReverb() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-rock_cowbell_2_reverb box
   const button = document.querySelector('#button-rock_cowbell_2_reverb');
   
   // Add the playing class to it
   button.classList.add('playing');
 }
 function playReallyReverby() {
-  // Find the clap audio file
+  // Find the rock_cowbell_1_really_reverby audio file
   const audio = document.querySelector('#rock_cowbell_1_really_reverby');
   
   // Rewind to the beginning
@@ -126,7 +126,7 @@ function playReallyReverby() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-rock_cowbell_1_really_reverby box
   const button = document.querySelector('#button-rock_cowbell_1_really_reverby');
   
   // Add the playing class to it
@@ -135,7 +135,7 @@ function playReallyReverby() {
 
 
 function playCowbellReversed() {
-  // Find the clap audio file
+  // Find the rock_cowbell_1_reversed audio file
   const audio = document.querySelector('#rock_cowbell_1_reversed');
   
   // Rewind to the beginning
@@ -145,7 +145,7 @@ function playCowbellReversed() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-rock_cowbell_1_reversed box
   const button = document.querySelector('#button-rock_cowbell_1_reversed');
   
   // Add the playing class to it
@@ -154,7 +154,7 @@ function playCowbellReversed() {
 
 
 function playLatinCowbell() {
-  // Find the clap audio file
+  // Find the lower_latin_cowbell_1 audio file
   const audio = document.querySelector('#lower_latin_cowbell_1');
   
   // Rewind to the beginning
@@ -164,7 +164,7 @@ function playLatinCowbell() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-lower_latin_cowbell_1 box
   const button = document.querySelector('#button-lower_latin_cowbell_1');
   
   // Add the playing class to it
@@ -173,7 +173,7 @@ function playLatinCowbell() {
 
 
 function playFourStrikes() {
-  // Find the clap audio file
+  // Find the latin_cowbell_four_strikes_1 audio file
   const audio = document.querySelector('#latin_cowbell_four_strikes_1');
   
   // Rewind to the beginning
@@ -183,7 +183,7 @@ function playFourStrikes() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-latin_cowbell_four_strikes_1 box
   const button = document.querySelector('#button-latin_cowbell_four_strikes_1');
   
   // Add the playing class to it
@@ -192,7 +192,7 @@ function playFourStrikes() {
 
 
 function playBoogieCowbell() {
-  // Find the clap audio file
+  // Find the boogie_cowbell_1 audio file
   const audio = document.querySelector('#boogie_cowbell_1');
   
   // Rewind to the beginning
@@ -202,7 +202,7 @@ function playBoogieCowbell() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-boogie_cowbell_1 box
   const button = document.querySelector('#button-boogie_cowbell_1');
   
   // Add the playing class to it
@@ -211,7 +211,7 @@ function playBoogieCowbell() {
 
 
 function playBoogie1Reverb() {
-  // Find the clap audio file
+  // Find the boogie_cowbell_1_reverb audio file
   const audio = document.querySelector('#boogie_cowbell_1_reverb');
   
   // Rewind to the beginning
@@ -221,7 +221,7 @@ function playBoogie1Reverb() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-boogie_cowbell_1_reverb box
   const button = document.querySelector('#button-boogie_cowbell_1_reverb');
   
   // Add the playing class to it
@@ -229,7 +229,7 @@ function playBoogie1Reverb() {
 }
 
 function playCowbell808() {
-  // Find the clap audio file
+  // Find the cowbell-808 audio file
   const audio = document.querySelector('#cowbell-808');
   
   // Rewind to the beginning
@@ -239,7 +239,7 @@ function playCowbell808() {
   // Play the audio file that we find
   audio.play();
   
-  // Find the #button-clap box
+  // Find the #button-cowbell-808 box
   const button = document.querySelector('#button-cowbell-808');
   
   // Add the playing class to it
@@ -247,6 +247,8 @@ function playCowbell808() {
 }
 
 // ---- CODE STOPS HERE ----
+
+//And now some functions to make those buttons pop...so to speak
 
 function removeTransition(e) {
   if (e.propertyName !== "transform") return; 
