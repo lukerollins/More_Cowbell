@@ -15,6 +15,8 @@ document.querySelector('#button-cowbell-808').onclick= playCowbell808;
 
 document.querySelector('body').onkeypress = keyPress;
 
+
+
 function keyPress(e) { 
 
   // If the user presses 's', call playCowbellTwo()
@@ -255,9 +257,22 @@ function removeTransition(e) {
   e.target.classList.remove("playing");
 }
 
-var keys = Array.from(document.querySelectorAll(".key"));
+const keys = Array.from(document.querySelectorAll(".key"));
 keys.forEach(walken => 
   walken.addEventListener("transitionend", removeTransition)
   );
+
+ 
+
+  const moo = document.querySelector(".doot");
+  const bells = document.querySelector(".cowbell");
+  moo.addEventListener("click", () => {
+    bells.classList.toggle("open");
+    console.log("aaaa!");
+  });
+
+
+
+ 
 
 
