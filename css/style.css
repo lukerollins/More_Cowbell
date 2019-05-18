@@ -2,7 +2,8 @@
 body {
   
   
-  font-family: sans-serif;
+  font-family: 'Titan One', cursive; 
+  letter-spacing: .016rem;
   
   
   
@@ -71,7 +72,7 @@ html {
 
 
 .key {
-  border:  5px solid rgba(248, 172, 57, 0.541);
+  border:  10px solid rgb(255, 74, 56);
   border-radius: 100%;
   margin: 10%;
   /*font-size: 30pt;*/
@@ -79,15 +80,15 @@ html {
   transition: all 0.07s ease;
   
   text-align: center;
-  color:  rgba(202, 117, 5, 0.575);;
-  background: rgba(0,0,0,0.4);
+  color:  rgb(255, 74, 56);
+  background: rgb(243, 162, 41);
   text-shadow: 0 0 3px black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color:  rgba(248, 180, 77, 0.541);
-  box-shadow: 0 0 1rem rgba(248, 180, 77, 0.541);
+  border-color:  rgba(255, 74, 56, 0.541);
+  box-shadow: 0 0 1rem rgba(255, 74, 56, 0.541);
 }
 
 .key p {
@@ -169,7 +170,7 @@ html {
   
   .sound {
     font-size: 44pt;
-    letter-spacing: .016rem;
+    /*letter-spacing: .016rem;*/
     color: white;
   }
 
@@ -189,10 +190,11 @@ html {
       padding: 10% 0;
       width: 100vw;
       margin: 0;
-      background: rgb(160, 106, 6);
-      color: rgb(247, 97, 10);
+      background: rgb(243, 162, 41);
+      color: rgb(255, 74, 56);
       /*z-index: 999;*/
       font-size: 35pt;
+      text-shadow: 0 0 3px black;
     }
 
     /*.spoopy {
