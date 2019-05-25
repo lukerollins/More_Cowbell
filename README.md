@@ -2,3 +2,10 @@ I got the idea for this thingy when I was doing the JavaScript 30 tutorial, by W
 
 I'm hoping to make it more responsive by adding features that would allow one to play with the cowbells using a touch screen and not just a keyboard (which you're restricted to now). Also, making a background that looks good at any size would be nice as well.
 
+
+
+**Updated 5/25/19:**
+
+Needless to say I've finally gotten around to completing the above. I've made it so that when one is on a mobile device, one will see a bar that says 'Click'. Obviously, pressing 'Click' will display the 'cowbells'. Needless to say, this was inspired by that whole responsive navigation and, for some reason or another, I thought it would be appropriate here.
+
+
