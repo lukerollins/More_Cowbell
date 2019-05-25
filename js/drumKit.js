@@ -1,4 +1,4 @@
-// This particular code came from a fork of a similiar JS Drumkit project I found on 
+// This particular part of the code came from a fork of a similiar JS Drumkit project I found on 
 // codepen.io from Josh Tucholski (https://codepen.io/josh-tucholski/pen/YLEzPx).
 
 document.querySelector('#button-rock_cowbell_1').onclick = playCowbellOne;
